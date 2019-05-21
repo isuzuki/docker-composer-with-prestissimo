@@ -4,7 +4,7 @@
 ```
 docker run --rm --interactive --tty \
   --volume $PWD:/app \
-  isuzuki/composer-with-prestissimo
+  isuzuki/docker-composer-with-prestissimo
 ```
 
 ## References
