@@ -1,4 +1,4 @@
-FROM php:alpine
+FROM php:7.4-alpine
 
 # Install composer and prestissimo
 RUN curl -s http://getcomposer.org/installer | php && \
@@ -8,3 +8,5 @@ RUN curl -s http://getcomposer.org/installer | php && \
 WORKDIR /app
 
 ENTRYPOINT [ "composer" ]
+
+CMD [ "--help" ]

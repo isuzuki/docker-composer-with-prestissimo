@@ -1,10 +1,13 @@
 # docker-composer-with-prestissimo
 
+## Outline
+Composer with pretissimo images based on alpine
+
 ## Usage
 ```
 docker run --rm --interactive --tty \
   --volume $PWD:/app \
-  isuzuki/docker-composer-with-prestissimo
+  isuzuki/composer-with-prestissimo
 ```
 
 ## References
